@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview",
+    "format": "prettier -w ."
+  },
+  "dependencies": {
+    "@fontsource/roboto": "^5.2.9",
+    "@mdi/js": "^7.4.47",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.4",
+    "vuetify": "^3.11.5"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.6.15",
+    "prettier": "^3.7.4",
+    "vue-loader": "^17.4.2",
+    "webpack-plugin-vuetify": "^3.1.2"
+  }
+}

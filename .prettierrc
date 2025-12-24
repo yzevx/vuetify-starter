@@ -1,0 +1,7 @@
+{
+  "experimentalTernaries": true,
+  "singleQuote": true,
+  "bracketSameLine": true,
+  "vueIndentScriptAndStyle": true,
+  "singleAttributePerLine": true
+}
