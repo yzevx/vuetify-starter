@@ -9,7 +9,7 @@ export default createVuetify({
     sets: { mdi }
   },
   locale: {
-    lcoale: 'zhHans',
+    locale: 'zhHans',
     messages: { zhHans }
   }
 });
