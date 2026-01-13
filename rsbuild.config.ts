@@ -16,7 +16,7 @@ export default defineConfig({
     alias: {
       '@': './src'
     },
-    extensions: ['.html', '.ts', '.js']
+    extensions: ['.html', '.js', '.css']
   },
   server: {
     historyApiFallback: true,
