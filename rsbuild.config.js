@@ -6,7 +6,7 @@ import { VuetifyPlugin, transformAssetUrls } from 'webpack-plugin-vuetify';
 export default defineConfig({
   source: {
     entry: {
-      index: './src/main.ts'
+      index: './src/main.js'
     }
   },
   html: {
