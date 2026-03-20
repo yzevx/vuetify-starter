@@ -1,0 +1,7 @@
+node_modules/
+.env
+package-lock.json
+dist/*
+!dist/index.html
+
+tar --exclude='node_modules' --exclude='package-lock.json' -czvf code.tar.gz .
