@@ -1,6 +1,6 @@
-![Example image](https://github.com/user-attachments/assets/6e29cd39-cc8b-4172-9629-8d50a1d89046)
-
 ## Vuetify starter project for [Code App](https://thebaselab.com/code)
+
+![Example image](https://github.com/user-attachments/assets/6e29cd39-cc8b-4172-9629-8d50a1d89046)
 
 To start, run these commands in the terminal:
 
