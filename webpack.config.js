@@ -1,4 +1,5 @@
 const path = require('node:path');
+const DotenvPlugin = require('dotenv-webpack');
 const { VueLoaderPlugin } = require('vue-loader');
 const { VuetifyPlugin, transformAssetUrls } = require('webpack-plugin-vuetify');
 
@@ -30,7 +31,7 @@ module.exports = {
       }
     ]
   },
-  plugins: [new VueLoaderPlugin(), new VuetifyPlugin()],
+  plugins: [new DotenvPlugin({ expand: true }), new VueLoaderPlugin(), new VuetifyPlugin()],
   resolve: {
     alias: {
       '@': path.join(process.cwd(), 'src')
